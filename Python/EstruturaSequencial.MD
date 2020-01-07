@@ -1,3 +1,5 @@
+# Exercicios Python
+
 - [x] Faça um Programa que mostre a mensagem "Alo mundo" na tela.
 
 - [x] Faça um Programa que peça um número e então mostre a mensagem O número informado foi [número].
@@ -13,8 +15,8 @@
 C = (5 * (F-32) / 9).
 
 - [x] Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre em graus Farenheit.
-- [ ] Faça um Programa que peça 2 números inteiros e um número real. Calcule e mostre:
-    
+- [x] Faça um Programa que peça 2 números inteiros e um número real. Calcule e mostre:
+
     o produto do dobro do primeiro com metade do segundo .
     a soma do triplo do primeiro com o terceiro.
     o terceiro elevado ao cubo.
@@ -49,4 +51,4 @@ C = (5 * (F-32) / 9).
 
 - [ ] Faça um programa que peça o tamanho de um arquivo para download (em MB) e a velocidade de um link de Internet (em Mbps), calcule e informe o tempo aproximado de download do arquivo usando este link (em minutos).
 
-https://wiki.python.org.br/EstruturaSequencial
+<https://wiki.python.org.br/EstruturaSequencial>
