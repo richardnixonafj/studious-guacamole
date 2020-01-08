@@ -106,13 +106,36 @@
 
 # print(f"m2: {m2} e litros{litros} quantas latas: {qtlatas} e valor final {valor_final}")
 
-#17
-m2 = float(input("qual o tamanho em m2 ?? "))
-litros = m2 / 6
-lata = 54
-custolata = 80
-custo
-qtlatas = litros / lata
-valor_final = qtlatas * custolata
 
-print(f"m2: {m2} e litros{litros} quantas latas: {qtlatas} e valor final {valor_final}")
+# #17 (nao terminado)
+# usandolatao = 0
+# usandogalao = 0
+# latarende = 108
+# galaorende = 21.6
+# custogalao = 25
+# custolata = 80
+
+# m2 = float(input("qual o tamanho em m2 ?? "))
+# galao_lata = input ("Se deseja comprar com Galão digite: 'Galao' ou se Deseja comprar com Latão digite 'Latao':  ")
+# litros = m2 / 6
+# qtlatas = litros / latarende
+# valor_final_lata = qtlatas * custolata
+
+# qtgalao = litros / galaorende
+# valor_final_galao = qtgalao * custogalao
+
+# if galao_lata == 'Galao':
+#     usandogalao = litros / galaorende
+#     print(f"quantos Galões: {qtgalao} e Valor R$: {valor_final_galao}")
+# else:
+#     usandolatao = litros / galaorende
+#     print(f"quantos Latões: {qtlatas} com Valor R$: {valor_final_lata}")
+
+#18
+file_mb = float(input("Qual o tamanho (mb) do arquivo que você quer baixar ?"))
+internet = float(input("Qual a velocidade da sua internet ?"))
+internet_vel = internet * 1024 / 8
+file_mb_time = file_mb * 1024 / internet_vel
+minutes = file_mb_time / 60
+
+print(minutes)
