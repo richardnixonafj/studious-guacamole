@@ -52,12 +52,24 @@
 # f = (c * 1.8) + 32
 # print(f"Convertido para Farenheit é equivalente a: {f}")
 
-#11
-int_1 = int(input("Digite um valor inteio: "))
-int_2 = int(input("Digite outro valor INTEIRO: "))
-real_1 = float(input("digite um valor real! "))
-print((2 * int_1) + int_2 / 2)
-print((3 * int_1) + real_1)
-print(real_1 ** 3)
+# #11
+# int_1 = int(input("Digite um valor inteio: "))
+# int_2 = int(input("Digite outro valor INTEIRO: "))
+# real_1 = float(input("digite um valor real! "))
+# print((2 * int_1) + int_2 / 2)
+# print((3 * int_1) + real_1)
+# print(real_1 ** 3)
 
-#12
+# #12
+# altura = float(input("Entre com os valores de altura: "))
+# peso = (72.7 * altura) - 58
+# print(f"Seu peso ideal é:{peso} Kg")
+
+#13
+h = float(input("Entre com os valores de altura: "))
+gender = (input("Digite: 'm' para masculino, ou 'f' para feminino : "))
+peso = 0
+if gender == 'm':
+    peso = ((72.7*h) - 58)
+else: peso = ((62.1*h) - 44.7)
+print("seu peso ideal é: {:.3}Kg".format(peso))

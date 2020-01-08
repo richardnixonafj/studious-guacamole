@@ -21,9 +21,9 @@ C = (5 * (F-32) / 9).
     a soma do triplo do primeiro com o terceiro.
     o terceiro elevado ao cubo.
 
-- [ ] Tendo como dados de entrada a altura de uma pessoa, construa um algoritmo que calcule seu peso ideal, usando a seguinte fórmula: (72.7*altura) - 58
+- [x] Tendo como dados de entrada a altura de uma pessoa, construa um algoritmo que calcule seu peso ideal, usando a seguinte fórmula: (72.7*altura) - 58
 
-- [ ] Tendo como dado de entrada a altura (h) de uma pessoa, construa um algoritmo que calcule seu peso ideal, utilizando as seguintes fórmulas:
+- [x] Tendo como dado de entrada a altura (h) de uma pessoa, construa um algoritmo que calcule seu peso ideal, utilizando as seguintes fórmulas:
     Para homens: (72.7*h) - 58
     Para mulheres: (62.1*h) - 44.7
 
