@@ -66,10 +66,53 @@
 # print(f"Seu peso ideal é:{peso} Kg")
 
 #13
-h = float(input("Entre com os valores de altura: "))
-gender = (input("Digite: 'm' para masculino, ou 'f' para feminino : "))
-peso = 0
-if gender == 'm':
-    peso = ((72.7*h) - 58)
-else: peso = ((62.1*h) - 44.7)
-print("seu peso ideal é: {:.3}Kg".format(peso))
+# h = float(input("Entre com os valores de altura: "))
+# gender = (input("Digite: 'm' para masculino, ou 'f' para feminino : "))
+# peso = 0
+# if gender == 'm':
+#     peso = ((72.7*h) - 58)
+# else: peso = ((62.1*h) - 44.7)
+# print("seu peso ideal é: {:.3}Kg".format(peso))
+
+# #14
+# pesopeixe = float(input("Quantos quilos de peixe você trouxe ?? "))
+# limitepeso = 50
+# excessopeso = 0
+# multapeso = 0
+# if pesopeixe > 50:
+#     excessopeso = pesopeixe - limitepeso
+#     multapeso = excessopeso * 4
+# else:
+#     print("Não terá multas!")
+# print("O excesso de peso foi {:.2} kg e a multa foi de R$ {:.2}".format(excessopeso, multapeso))
+
+# #15
+# horastrabalhadas = float(input("Quantas horas voce trabalhou neste mes ?? "))
+# valordahora = float(input("quanto voce ganha por hora ?? "))
+# sbruto = horastrabalhadas * valordahora
+# ir = sbruto * 0.11
+# inss = sbruto * 0.08
+# sindicato = sbruto * 0.05
+# sliquido = sbruto - ir - inss - sindicato
+# print(sbruto, ir, inss, sindicato, sliquido)
+
+# #16
+# m2 = float(input("qual o tamanho em m2 ?? "))
+# litros = m2 / 3
+# lata = 54
+# custolata = 80
+# qtlatas = litros / lata
+# valor_final = qtlatas * custolata
+
+# print(f"m2: {m2} e litros{litros} quantas latas: {qtlatas} e valor final {valor_final}")
+
+#17
+m2 = float(input("qual o tamanho em m2 ?? "))
+litros = m2 / 6
+lata = 54
+custolata = 80
+custo
+qtlatas = litros / lata
+valor_final = qtlatas * custolata
+
+print(f"m2: {m2} e litros{litros} quantas latas: {qtlatas} e valor final {valor_final}")
