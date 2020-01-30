@@ -3,7 +3,11 @@
   <title> Curso javascript</title>
   </head>
   <body>
+     <div id="app">
+        <button onclick="mostraAlerta()">Me pressione!</button>
+    </div>
     <script>
+      
       //console.log('Hello World')
       //{% comment %} var nome = "Richard";
       //var idade = 30;
@@ -81,7 +85,7 @@
 
     //condição ternaria
 
-    var sexo = 'F';
+    // var sexo = 'F';
 
     // if (sexo === 'M') {
     //   return 'Masculino';
@@ -89,8 +93,34 @@
     //   return 'Feminino';
     // }
 
-    var retorno = (sexo === 'M') ? 'Masculino' : 'Feminino';
-    console.log(retorno)
+    // var retorno = (sexo === 'M') ? 'Masculino' : 'Feminino';
+    // console.log(retorno)
+
+    //For, While
+
+    // for (var i = 0; i<= 100; i++){
+    //   console.log(i);
+    // }
+
+    // utilizar o while sempre que voce nao souber o tamanho
+    // do intervalo
+    // var j = 0;
+    // while(j <= 110) {
+    //   console.log(j);
+    //   j++;
+    // }
+    // function exibeAlgo() {
+    //   console.log('Hello World');
+    // }
+    //setInterval(exibeAlgo, 1000);
+    // setTimeout(exibeAlgo, 5000);
+
+
+    //Eventos Inline
+
+  function mostrarAlerta() {
+    alert('Botão foi clicado');
+    }
     </script>
   </body>
 </html>
