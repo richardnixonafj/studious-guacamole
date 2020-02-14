@@ -131,7 +131,6 @@
 #     usandolatao = litros / galaorende
 #     print(f"quantos Latões: {qtlatas} com Valor R$: {valor_final_lata}")
 
-<<<<<<< HEAD
 # #18
 # file_mb = float(input("Qual o tamanho (mb) do arquivo que você quer baixar ?"))
 # internet = float(input("Qual a velocidade da sua internet ?"))
@@ -139,13 +138,3 @@
 # file_mb_time = file_mb * 1024 / internet_vel
 # minutes = file_mb_time / 60
 # print(minutes)
-=======
-#18
-file_mb = float(input("Qual o tamanho (mb) do arquivo que você quer baixar ?"))
-internet = float(input("Qual a velocidade da sua internet ?"))
-internet_vel = internet * 1024 / 8
-file_mb_time = file_mb * 1024 / internet_vel
-minutes = file_mb_time / 60
-
-print(minutes)
->>>>>>> 4a367c92096077e7138a6da104dfcca9177ebdf1
